@@ -1,0 +1,2 @@
+C:\_git_atlantis\SourceCodes\Lusteni_github\OsmiUnitTests\obj\Debug\OsmiUnitTests.csproj.AssemblyReference.cache
+C:\_git_atlantis\SourceCodes\Lusteni_github\OsmiUnitTests\obj\Debug\OsmiUnitTests.csproj.CoreCompileInputs.cache
