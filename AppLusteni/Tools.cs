@@ -1,6 +1,5 @@
 ﻿using Lusteni.Osmismerky;
 using Lusteni.Sudoku;
-using Osmismerky;
 using System;
 using System.IO;
 

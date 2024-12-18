@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Lusteni.Osmismerky
+namespace Lusteni.Osmismerky.Sequences
 {
     internal enum SequenceDirection
     {

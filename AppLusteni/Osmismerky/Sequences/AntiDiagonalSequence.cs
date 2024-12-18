@@ -1,14 +1,14 @@
 ﻿using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("OsmiUnitTests")]
-namespace Lusteni.Osmismerky
+namespace Lusteni.Osmismerky.Sequences
 {
     internal static class AntiDiagonalSequence
     {
         public static int GetSequenceIndex(int row, int column, int _rowCount, int _columnsCount)
         {
             int _index = -1;
-            if ((row == 0 && column == _columnsCount - 1) || (row == _rowCount -1 && column == 0))
+            if (row == 0 && column == _columnsCount - 1 || row == _rowCount - 1 && column == 0)
             {
                 return _index;
             }
@@ -22,7 +22,7 @@ namespace Lusteni.Osmismerky
                     _index = _rowCount - 1 + column - 1 - row;
                 }
             }
-            
+
             return _index;
         }
     }

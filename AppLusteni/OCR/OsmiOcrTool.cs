@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
 
-namespace Osmismerky.OCR
+namespace Lusteni.OCR
 {
     internal class OsmiOcrTool
     {
@@ -51,5 +51,5 @@ namespace Osmismerky.OCR
             return extractedText;
         }
     }
-    
+
 }

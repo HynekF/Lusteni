@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lusteni", "AppLusteni\Luste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LusteniUnitTests", "LusteniUnitTests\LusteniUnitTests.csproj", "{DDA4D039-8CB7-46F8-919D-4CECF6BF2F74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesseract", "Tesseract_git\src\Tesseract\Tesseract.csproj", "{57D380FD-C51D-4078-8774-69CF02E6B213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesseract", "..\Lusteni\Tesseract_git\src\Tesseract\Tesseract.csproj", "{895ED006-2537-40BE-9145-5D07DBBB79F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{DDA4D039-8CB7-46F8-919D-4CECF6BF2F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDA4D039-8CB7-46F8-919D-4CECF6BF2F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDA4D039-8CB7-46F8-919D-4CECF6BF2F74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57D380FD-C51D-4078-8774-69CF02E6B213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57D380FD-C51D-4078-8774-69CF02E6B213}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57D380FD-C51D-4078-8774-69CF02E6B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57D380FD-C51D-4078-8774-69CF02E6B213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895ED006-2537-40BE-9145-5D07DBBB79F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895ED006-2537-40BE-9145-5D07DBBB79F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895ED006-2537-40BE-9145-5D07DBBB79F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895ED006-2537-40BE-9145-5D07DBBB79F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

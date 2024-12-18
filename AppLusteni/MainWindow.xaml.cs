@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
-//using Tesseract;
+using Tesseract;
 using Lusteni.Osmismerky;
 using System.Runtime.CompilerServices;
 using Lusteni;
@@ -31,11 +31,11 @@ namespace Osmismerky
             InitializeComponent();
         }
 
-        //protected static TesseractEngine CreateEngine(string lang = "eng", EngineMode mode = EngineMode.TesseractOnly)
-        //{
-        //    var datapath = @"C:\Users\hynek\source\repos\Osmismerky\_tessdata";
-        //    return new TesseractEngine(datapath, lang, mode);
-        //}
+        protected static TesseractEngine CreateEngine(string lang = "eng", EngineMode mode = EngineMode.TesseractOnly)
+        {
+            var datapath = @"C:\_git_atlantis\SourceCodes\Lusteni_GitHub\_tessdata";
+            return new TesseractEngine(datapath, lang, mode);
+        }
 
         private string _ImageOCR_ResultFile(string imageFileName)
         {
@@ -106,46 +106,46 @@ namespace Osmismerky
                 LbOutput.UpdateLayout();
             }
         }
-        //private void ConvertImagesUsingTesseractOCR()
-        //{
-        //    using (var engine = CreateEngine(/*"ces"*/))
-        //    {
-        //        var _imgsToConvert = new List<string>();
-        //        foreach (string _imgItem in LbImages.SelectedItems)
-        //        {
-        //            _imgsToConvert.Add(_imgItem.ToString());
-        //        }
+        private void ConvertImagesUsingTesseractOCR()
+        {
+            using (var engine = CreateEngine(/*"ces"*/))
+            {
+                var _imgsToConvert = new List<string>();
+                foreach (string _imgItem in LbImages.SelectedItems)
+                {
+                    _imgsToConvert.Add(_imgItem.ToString());
+                }
 
-        //        foreach (string _fileConverting in _imgsToConvert)
-        //        {
-        //            _imgFilesRegister.TryGetValue(_fileConverting, out string _imgFileName);
+                foreach (string _fileConverting in _imgsToConvert)
+                {
+                    _imgFilesRegister.TryGetValue(_fileConverting, out string _imgFileName);
 
-        //            var timeStamp_start = DateTime.Now.Ticks;
+                    var timeStamp_start = DateTime.Now.Ticks;
 
-        //            var image = Pix.LoadFromFile(_imgFileName);
-        //            var page = engine.Process(image, PageSegMode.SparseText);
-        //            var text = page.GetText();
-        //            var text_clean = _getCleanLines(text);
+                    var image = Pix.LoadFromFile(_imgFileName);
+                    var page = engine.Process(image, PageSegMode.SparseText);
+                    var text = page.GetText();
+                    var text_clean = _getCleanLines(text);
 
-        //            var _resultFileName = _imgFileName.Replace(".jpg", ".txt").Replace("_ImagesData", "_OCR_ResultFiles");
-                    
-        //            var timeStamp_finish = DateTime.Now.Ticks;
-                    
-        //            var elapsedMilliSec = (int)TimeSpan.FromTicks(timeStamp_finish - timeStamp_start).TotalMilliseconds; //[ms]
+                    var _resultFileName = _imgFileName.Replace(".jpg", ".txt").Replace("_ImagesData", "_OCR_ResultFiles");
 
-        //            string _report = string.Format("Duration: {0} [milli Sec]{1}{1}<--OCR Data-->{1}{2}", elapsedMilliSec, Environment.NewLine, text_clean);
+                    var timeStamp_finish = DateTime.Now.Ticks;
 
-        //            File.WriteAllText(_resultFileName, _report);
+                    var elapsedMilliSec = (int)TimeSpan.FromTicks(timeStamp_finish - timeStamp_start).TotalMilliseconds; //[ms]
 
-        //            // mark the item with ✔️ prefix
-        //            _MarkImgItemWithDonePrefix(_fileConverting);
+                    string _report = string.Format("Duration: {0} [milli Sec]{1}{1}<--OCR Data-->{1}{2}", elapsedMilliSec, Environment.NewLine, text_clean);
 
-        //            //Thread.Sleep(15000);
-        //            page.Dispose();
-        //        }
-        //    }
+                    File.WriteAllText(_resultFileName, _report);
 
-        //}
+                    // mark the item with ✔️ prefix
+                    _MarkImgItemWithDonePrefix(_fileConverting);
+
+                    //Thread.Sleep(15000);
+                    page.Dispose();
+                }
+            }
+
+        }
 
         private bool _is8smerkaSelectedToResolveNow(OsmiSmerka _8smerka)
         {
@@ -180,7 +180,7 @@ namespace Osmismerky
 
         private void BtnConvertImages_Click(object sender, RoutedEventArgs e)
         {
-            //ConvertImagesUsingTesseractOCR();
+            ConvertImagesUsingTesseractOCR();
         }
 
         private void BtnDoTheJob_Click(object sender, RoutedEventArgs e)

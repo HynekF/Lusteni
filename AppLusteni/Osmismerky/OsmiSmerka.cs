@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.IO;
 using Lusteni.Sudoku;
+using Lusteni.Osmismerky.Sequences;
 
 namespace Lusteni.Osmismerky
 {

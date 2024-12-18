@@ -1,10 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("OsmiUnitTests")]
-namespace Lusteni.Osmismerky
+namespace Lusteni.Osmismerky.Sequences
 {
     internal static class DiagonalSequence
-    {       
+    {
 
         public static int GetSequenceIndex(int row, int column, int _rowCount, int _columnsCount)
         {
@@ -23,8 +23,8 @@ namespace Lusteni.Osmismerky
                     _index += column;
                 }
                 return _index;
-            }            
-            
+            }
+
             if (column > 0 && row < _rowCount - column)
             {
                 _index += column;
@@ -33,7 +33,7 @@ namespace Lusteni.Osmismerky
             {
                 _index = _rowCount - 2 + column - 1;
             }
-            else if(row == _rowCount -1 && column == _columnsCount - 1)
+            else if (row == _rowCount - 1 && column == _columnsCount - 1)
             {
                 _index = -1;
             }
