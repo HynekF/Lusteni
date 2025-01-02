@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\Lusteni.csproj": {}
+    "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\Lusteni.csproj": {}
   },
   "projects": {
-    "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\Lusteni.csproj": {
+    "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\Lusteni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\Lusteni.csproj",
+        "projectUniqueName": "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\Lusteni.csproj",
         "projectName": "Lusteni",
-        "projectPath": "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\Lusteni.csproj",
+        "projectPath": "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\Lusteni.csproj",
         "packagesPath": "C:\\Users\\hynek\\.nuget\\packages\\",
-        "outputPath": "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\obj\\",
+        "outputPath": "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

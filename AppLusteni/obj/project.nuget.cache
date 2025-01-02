@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GHmL7r8uyRiHxFLk954zzsqV06eeKHCFeazhJRTB7HDB3wAxxMAna3GheCB+52pEc220nuszmsl7GNTMeFZ4QQ==",
+  "dgSpecHash": "HMvDzK11cg8=",
   "success": true,
-  "projectFilePath": "C:\\_git_atlantis\\SourceCodes\\Lusteni_github\\AppLusteni\\Lusteni.csproj",
+  "projectFilePath": "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\AppLusteni\\Lusteni.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hynek\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
     "C:\\Users\\hynek\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

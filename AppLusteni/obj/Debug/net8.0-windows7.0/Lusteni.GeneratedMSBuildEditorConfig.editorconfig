@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lusteni
-build_property.ProjectDir = C:\_git_atlantis\SourceCodes\Lusteni_github\AppLusteni\
+build_property.ProjectDir = C:\Users\hynek\source\git_repos\Lusteni\AppLusteni\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
