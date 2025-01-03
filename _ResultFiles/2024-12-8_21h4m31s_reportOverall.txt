@@ -1,2 +1,0 @@
-1. osmi 64	Completed	18942 [μs]
-Duration All: 54332 [μs]

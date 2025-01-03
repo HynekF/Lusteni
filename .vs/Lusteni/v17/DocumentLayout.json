@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hynek\\source\\git_repos\\Lusteni\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|c:\\_git_atlantis\\sourcecodes\\lusteni_github\\applusteni\\osmismerky\\osmismerka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|solutionrelative:applusteni\\osmismerky\\osmismerka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|c:\\_git_atlantis\\sourcecodes\\lusteni_github\\applusteni\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|solutionrelative:applusteni\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|c:\\_git_atlantis\\sourcecodes\\lusteni_github\\applusteni\\osmismerky\\osmismerkacore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|solutionrelative:applusteni\\osmismerky\\osmismerkacore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|c:\\_git_atlantis\\sourcecodes\\lusteni_github\\applusteni\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EDBB6C-8FF2-456A-92D2-9C46D5728DC0}|AppLusteni\\Lusteni.csproj|solutionrelative:applusteni\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppLusteni\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AppLusteni\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAASwNwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T19:50:40.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Tools.cs",
+              "RelativeDocumentMoniker": "AppLusteni\\Tools.cs",
+              "ToolTip": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Tools.cs",
+              "RelativeToolTip": "AppLusteni\\Tools.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAASwBkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T19:10:22.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OsmiSmerka.cs",
+              "DocumentMoniker": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Osmismerky\\OsmiSmerka.cs",
+              "RelativeDocumentMoniker": "AppLusteni\\Osmismerky\\OsmiSmerka.cs",
+              "ToolTip": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Osmismerky\\OsmiSmerka.cs",
+              "RelativeToolTip": "AppLusteni\\Osmismerky\\OsmiSmerka.cs",
+              "ViewState": "AQIAACIBAAAAAAAAAAAewC4BAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T19:07:17.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OsmiSmerkaCore.cs",
+              "DocumentMoniker": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Osmismerky\\OsmiSmerkaCore.cs",
+              "RelativeDocumentMoniker": "AppLusteni\\Osmismerky\\OsmiSmerkaCore.cs",
+              "ToolTip": "C:\\_git_atlantis\\SourceCodes\\Lusteni_GitHub\\AppLusteni\\Osmismerky\\OsmiSmerkaCore.cs",
+              "RelativeToolTip": "AppLusteni\\Osmismerky\\OsmiSmerkaCore.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T19:06:43.272Z",
+              "EditorCaption": ""
             }
           ]
         }

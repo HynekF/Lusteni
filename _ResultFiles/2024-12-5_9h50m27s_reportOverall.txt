@@ -1,3 +1,0 @@
-1. 2024-12_Sudku_006.txt	Completed	1784 [μs]
-2. 2024-12_Sudku_004.txt	Completed	1781 [μs]
-Duration All: 19999 [μs]

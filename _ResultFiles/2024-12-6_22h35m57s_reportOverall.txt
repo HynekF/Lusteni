@@ -1,2 +1,0 @@
-1. osmi 38	Completed	17219 [μs]
-Duration All: 42511 [μs]

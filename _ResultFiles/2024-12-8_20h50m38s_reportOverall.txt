@@ -1,2 +1,0 @@
-1. osmi 49	Completed	16788 [μs]
-Duration All: 45258 [μs]
