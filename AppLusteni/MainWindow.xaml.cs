@@ -202,6 +202,7 @@ namespace Osmismerky
             int _osmiIterator = 1;
 
             var selected8smerky = Get8smerkyListToBeSolved();
+            var _resultPath = Path.Combine(Lusteni.Tools.TryGetSolutionDirectoryInfo(), "_ResultFiles");
 
             Parallel.ForEach(selected8smerky, osmi =>
             //foreach (var _osmi in selected8smerky)
@@ -218,7 +219,13 @@ namespace Osmismerky
 
                 string _report = String.Format("Duration: {0} [{3}s],{1}{1}Tajenka: {2}", elapsedTicksMs, Environment.NewLine, osmi.Result, Const.Char_Micro);
 
-                File.WriteAllText(Path.Combine(Lusteni.Tools.TryGetSolutionDirectoryInfo(), "_ResultFiles", osmi.ResultFile), _report);
+                
+                if (!Path.Exists(_resultPath))
+                {
+                    Directory.CreateDirectory(_resultPath);
+                }
+
+                File.WriteAllText(Path.Combine(_resultPath, osmi.ResultFile), _report);
 
                 _reportOverall += String.Format("{0}. {1}\t{2}\t{3} [{4}s]\n", _osmiIterator++, osmi.Name, result.ToString(), elapsedTicksMs, Const.Char_Micro);
 
@@ -228,7 +235,7 @@ namespace Osmismerky
             long durationAllMs = (timeStamp_done.Ticks - timeStamp_t0) / 10; //[mikro sec]
             _reportOverall += String.Format("Duration All: {0} [{1}s]\n", durationAllMs, Const.Char_Micro);
             string reportOverall_filename = $"{timeStamp_done.Year}-{timeStamp_done.Month}-{timeStamp_done.Day}_{timeStamp_done.Hour}h{timeStamp_done.Minute}m{timeStamp_done.Second}s_reportOverall.txt";
-            File.WriteAllText(Path.Combine(Lusteni.Tools.TryGetSolutionDirectoryInfo(), "_ResultFiles", reportOverall_filename), _reportOverall);
+            File.WriteAllText(Path.Combine(_resultPath, reportOverall_filename), _reportOverall);
 
             foreach (var osmi in selected8smerky)
             {

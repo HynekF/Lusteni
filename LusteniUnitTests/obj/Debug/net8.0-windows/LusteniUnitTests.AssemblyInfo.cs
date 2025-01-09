@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LusteniUnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e197cf44ca732d0f32082f1abe5df64c1759ddd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be2dd30113a9d255c6fd58b7f0abbed9da0bcee")]
 [assembly: System.Reflection.AssemblyProductAttribute("LusteniUnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LusteniUnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
